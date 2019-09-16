@@ -1,12 +1,12 @@
 on: push
 jobs:
-  job1:
+  Linux:
     runs-on: ubuntu-18.04
     steps:
     - name: Greet
-      run: echo Hello world linux
-  job2:
+      run: echo Hello Linux
+  Windows:
     runs-on: windows-2019
     steps:
     - name: Greet
-      run: echo Hello world linux
+      run: echo Hello Windows
